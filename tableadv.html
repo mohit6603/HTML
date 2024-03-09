@@ -1,0 +1,41 @@
+<!-- will learn about rowspan colspan -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <!-- th is used to bold elemnt -->
+    <table>
+        <tr>
+            <th colspan="2">Month</th>
+            <th>Amount</th>
+        </tr>
+        <tr>
+            <td>jan</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td rowspan="3">feb</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>300</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>400</td>
+        </tr>
+    </table>
+</body>
+</html>
