@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, tr, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color: aquamarine;">
+            <col span="1" style="background-color: aqua;">
+        </colgroup>
+        <caption>My First Table</caption>pt
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td rowspan="3">abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <!-- <td>abcd</td> -->
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <!-- <td>abcd</td> -->
+            <td>abcd</td>
+        </tr>
+    </table>
+</body>
+</html>
